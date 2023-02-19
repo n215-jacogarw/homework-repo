@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@font-face {
+  font-family: metal;
+  src: url(../css/fonts/metalmania-regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  font-family: "Metal Mania", cursive;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+}
+nav a:hover {
+  color: #ab00ab;
+  transition-duration: 0.5s;
+}
+nav .homelogo {
+  background-image: url(../img/Logo.png);
+  width: 125px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+nav .homelogo:hover {
+  background-image: url(../img/LogoHover.png);
+  animation-duration: 0.5s;
+}
+
+.hero {
+  width: 100%;
+  height: 600px;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 10px;
+  color: #ab00ab;
+  font-family: "Metal Mania", cursive;
+  text-align: center;
+  font-size: 70px;
+}
+.hero button {
+  border-radius: 30px;
+  background-color: #ab00ab;
+  padding: 15px 32px;
+  font-family: "Metal Mania", cursive;
+  size: 70px;
+}
+
+.header {
+  font-family: "Metal Mania", cursive;
+  font-size: large;
+  padding-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ab00ab;
+}
+
+.body {
+  font-family: "Metal Mania", cursive;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+}
+.body #box1 {
+  display: -webkit-box;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  padding-bottom: 0px;
+}
+.body #box1 p {
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-basis: 60%;
+  text-align: left;
+  color: #ab00ab;
+}
+.body #box1 #Band1 {
+  width: 450px;
+  height: 300px;
+  background-image: url("../img/Band1.png");
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+.body #filler1 p {
+  font-weight: bold;
+  font-size: xx-large;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  color: #ab00ab;
+}
+.body #box2 {
+  display: -webkit-box;
+  -webkit-box-direction: reverse;
+  -webkit-box-orient: horizontal;
+}
+.body #box2 #band2 {
+  padding-left: 10%;
+  flex-basis: 70%;
+  width: 434px;
+  height: 300px;
+}
+.body #box2 p {
+  padding-left: 50px;
+  padding-right: 10px;
+  text-align: right;
+  flex-basis: 50%;
+  color: #ab00ab;
+}
+
+.footer {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+}
+.footer a:hover {
+  color: #ab00ab;
+  transition-duration: 0.5s;
+}
+.footer .homelogo {
+  background-image: url(../img/Logo.png);
+  width: 125px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.lineup {
+  width: 100%;
+  height: 2500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.lineup #lineupbody #lineup {
+  font-family: "Metal Mania", cursive;
+  color: #e138e1;
+  font-weight: 900;
+  font-size: 100px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

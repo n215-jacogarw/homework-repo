@@ -1,0 +1,114 @@
+.companies {
+    padding-top: 20px;
+height:230px;
+background-color: #F2F1EE;
+.compline1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .blackburn {
+        background-repeat: no-repeat;
+        background-size:100px;
+        height:100px;
+        width:100px;
+        background-image: url(../img/Sponsors/greyblackburn.png);
+    }
+    .blackburn:hover {
+        background-image:url(../img/Sponsors/blackburn.png);
+    }
+    .ridegps {
+        background-repeat: no-repeat;
+            background-size: 100px;
+            height: 100px;
+            width: 100px;
+            background-image: url(../img/Sponsors/greyridegps.png);
+    }
+    .ridegps:hover {
+    background-image: url(../img/Sponsors/ridegps.png);
+    }
+        .restrap {
+            background-repeat: no-repeat;
+            background-size: 100px;
+            height: 100px;
+            width: 100px;
+            background-image: url(../img/Sponsors/greyrestrap.png);
+        }
+    
+        .restrap:hover {
+            background-image: url(../img/Sponsors/restrap.png);
+        }
+        .oldman {
+            background-repeat: no-repeat;
+            background-size: 100px;
+            height: 100px;
+            width: 100px;
+            background-image: url(../img/Sponsors/greyoldman.png);
+        }
+    
+        .oldman:hover {
+            background-image: url(../img/Sponsors/oldman.png);
+        }
+                .pedaled {
+                    background-repeat: no-repeat;
+                    background-size: 100px;
+                    height: 100px;
+                    width: 100px;
+                    background-image: url(../img/Sponsors/greypedaled.png);
+                }
+        
+                .pedaled:hover {
+                    background-image: url(../img/Sponsors/pedaled.png);
+                }
+}
+.compline2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .tailfin {
+        background-repeat: no-repeat;
+            background-size: 100px;
+            height: 100px;
+            width: 100px;
+            background-image: url(../img/Sponsors/greytailfin.png);
+        
+    }
+    .tailfin:hover {
+        background-image: url(../img/Sponsors/tailfin.png);
+    }
+    .wolftooth {background-repeat: no-repeat;
+        background-size: 100px;
+        height: 100px;
+        width: 100px;
+        background-image: url(../img/Sponsors/greywolftooth.png);}
+        .wolftooth:hover{
+            background-image: url(../img/Sponsors/wolftooth.png);
+        }
+.voile {background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/Sponsors/greyvoile.png);}
+.voile:hover {background-image: url(../img/Sponsors/voile.png);}
+.salsa {background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/Sponsors/greysalsa.png);}
+.salsa:hover{background-image: url(../img/Sponsors/salsa.png)}
+.ortlieb {background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/Sponsors/greyortlieb.png);}
+.ortlieb:hover {background-image: url(../img/Sponsors/ortlieb.png);}
+}
+.showmorebutton {
+    a {
+        font-family:'Rubik',sans-serif;
+        color: #A23D3B;
+    }
+    text-align: center;
+}
+
+
+}

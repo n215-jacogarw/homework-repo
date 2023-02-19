@@ -1,0 +1,257 @@
+.distext {
+    letter-spacing: 2px;
+    height:50px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(../img/dispatch-bg.png);
+}
+.dispatch {
+    
+    width:100%;
+    height:200px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/dispatch-bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    a {
+        .topimgtext {
+                font-family: 'Rubik', sans-serif;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #8E8881;
+                font-size: 12px;
+        }
+        .bottomimgtext {
+            text-transform: uppercase;
+            color:black;
+            text-decoration: none;
+            font-size:15px;
+            font-family:'Rubik',sans-serif;
+            inline-size: 175px;
+            overflow-wrap: break-word;
+            text-align: left;
+        }
+        justify-content: space-evenly;
+        text-decoration: none;
+        img {
+            padding-right:10px;
+        width:170px;
+        height:100px;
+        animation-duration: 0.5s;
+    }
+    img:hover{
+        width:180px;
+        height:110px;
+    }
+}
+}
+.loadmore {
+    height:50px;
+    a {
+        color:#A23D3B;
+        text-decoration: none;
+    }
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(../img/dispatch-bg.png); ;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+
+.body {
+    background-color: #F2F1EE;
+    
+.mission {
+    
+    height:200px;
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width:650px;
+        margin:auto;
+       
+
+    }
+
+.adspace{
+    height:250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    img{
+        width:1075px;
+        align-self: center;
+    }
+}
+.bikepackimg{
+    img {width:100%;}
+    
+}
+.explorebanner {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-family: 'Rubik',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    height:40px;
+    text-align: center;
+    width: 150px;
+    color: white;
+    background-color: black;
+    clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%)
+}
+.explore{
+    
+    padding-bottom: 50px;
+    color: rgba(0, 0, 0, 0);
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a:hover {
+            color: rgba(0, 0, 0, 1)
+        }
+ .routes {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 0px;
+    width:280px;
+    height:280px;
+    background-image: url(../img/routes.jpg);
+    .routetop {
+        letter-spacing: 3px;
+            font-family: 'Rubik Mono One', sans-serif;
+            margin-top: 130px;
+            text-align: center;
+    }
+    .routebottom {
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+    }
+ }   
+ .routes:hover {
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../img/routes.jpg);
+ }
+ .gear {
+    .geartop {
+            letter-spacing: 3px;
+            font-family: 'Rubik Mono One', sans-serif;
+            margin-top: 130px;
+            text-align: center;
+        }
+    
+        .gearbottom {
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+        }
+    margin-right: 0px;
+    width: 280px;
+        height: 280px;
+        background-image: url(../img/gear.jpg);
+ }
+ .gear:hover {
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../img/gear.jpg);
+ }
+ .bikes {
+    text-transform: uppercase;
+    .biketexttop {
+        letter-spacing: 3px;
+        font-family:'Rubik Mono One', sans-serif;
+        margin-top:130px;
+        text-align: center;
+    }
+    .biketextbottom {
+        font-family: 'Rubik',sans-serif;
+        text-align: center;
+    }
+    margin-right: 0px;
+    width: 280px;
+        height: 280px;
+        background-image: url(../img/bikes.jpg);
+        
+        .overlay-bikes {
+            position:absolute;
+            opacity: 0;
+            height:46%;
+            width:22%;
+            background-color: black;
+            &:hover {
+                transition: opacity 0.5s;
+                opacity: 1;
+            }
+        }
+        
+ }
+ .bikes:hover{
+    color: white;
+ }
+.lists{
+    margin-right: 0px;
+    width: 280px;
+        height: 280px;
+        background-image: url(../img/lists.jpg);
+        .listtop {
+                letter-spacing: 3px;
+                font-family: 'Rubik Mono One', sans-serif;
+                margin-top: 130px;
+                text-align: center;
+            }
+        
+            .listbottom {
+                font-family: 'Rubik', sans-serif;
+                text-align: center;
+            }
+}
+ .lists:hover {
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url(../img/lists.jpg);
+ }
+
+}
+.sponsor {
+    width:300px;
+    height:30px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:15px;
+    background-color: #d0cfcd;
+    clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
+    .comptext {
+        font-family: 'Rubik',sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        width:295px;
+        height:25px;
+        clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
+        text-align: center;
+        background-color: #F2F1EE;
+color: #848581;
+font-size: 13.5px;
+    };   
+}
+
+}

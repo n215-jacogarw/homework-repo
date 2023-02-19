@@ -1,0 +1,44 @@
+.hero {
+    position: relative;
+    height:800px;
+    width:100%;
+    background-image: url(../img/loop-bike.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    .banner {
+        font-family: 'Rubik', sans-serif;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 32px;
+        text-transform: uppercase;
+        position:absolute;
+        margin-top: 80px;
+        height:60px;
+        width:300px;
+        clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+        background-color: black;
+    }
+    .callout {
+        margin: auto;
+        color: #fff;
+        .margin-call {
+            font-family: 'Rubik Mono One', sans-serif;
+            text-align: center;
+            font-size:24px;
+        }
+        .title-call{
+            font-family: 'Rubik Mono One', sans-serif;
+            text-align: center;
+            font-size: 48px;
+        }
+          
+        
+
+        
+    }
+}

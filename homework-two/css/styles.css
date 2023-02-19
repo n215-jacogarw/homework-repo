@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.site-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  min-height: 400px;
+  background-color: white;
+}
+
+.large {
+  height: 1500px;
+  background-color: aquamarine;
+}
+
+.announcement {
+  font-family: "Rubik", sans-serif;
+  height: 44px;
+  width: 100%;
+  background-color: #747F5A;
+  display: flex;
+}
+.announcement .words {
+  margin: auto;
+}
+.announcement .words .red-box {
+  background-color: #A23D3B;
+  padding: 6px 19px;
+  text-decoration: none;
+  color: #A9B69C;
+}
+.announcement .words .red-box:hover {
+  color: white;
+}
+.announcement .login {
+  align-self: center;
+  margin-right: 20px;
+}
+.announcement .login a {
+  text-decoration: none;
+  color: black;
+}
+.announcement .login .fa-user {
+  margin-left: 10px;
+}
+
+.hero {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-image: url(../img/loop-bike.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+}
+.hero .banner {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 80px;
+  height: 60px;
+  width: 300px;
+  clip-path: polygon(100% 0, 90% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+  background-color: black;
+}
+.hero .callout {
+  margin: auto;
+  color: #fff;
+}
+.hero .callout .margin-call {
+  font-family: "Rubik Mono One", sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+.hero .callout .title-call {
+  font-family: "Rubik Mono One", sans-serif;
+  text-align: center;
+  font-size: 48px;
+}
+
+.navbar {
+  font-family: "Rubik", sans-serif;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+}
+.navbar .navcontents {
+  margin: auto;
+}
+.navbar .navcontents a {
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+.navbar .iconnav {
+  align-self: center;
+  margin-right: 20px;
+}
+.navbar .iconnav a {
+  font-size: 30px;
+  text-decoration: none;
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+}
+
+.distext {
+  letter-spacing: 2px;
+  height: 50px;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/dispatch-bg.png);
+}
+
+.dispatch {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/dispatch-bg.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dispatch a {
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.dispatch a .topimgtext {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8E8881;
+  font-size: 12px;
+}
+.dispatch a .bottomimgtext {
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  inline-size: 175px;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+.dispatch a img {
+  padding-right: 10px;
+  width: 170px;
+  height: 100px;
+  animation-duration: 0.5s;
+}
+.dispatch a img:hover {
+  width: 180px;
+  height: 110px;
+}
+
+.loadmore {
+  height: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/dispatch-bg.png);
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loadmore a {
+  color: #A23D3B;
+  text-decoration: none;
+}
+
+.body {
+  background-color: #F2F1EE;
+}
+.body .mission {
+  height: 200px;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 650px;
+  margin: auto;
+}
+.body .adspace {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+.body .adspace img {
+  width: 1075px;
+  align-self: center;
+}
+.body .bikepackimg img {
+  width: 100%;
+}
+.body .explorebanner {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  width: 150px;
+  color: white;
+  background-color: black;
+  clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
+}
+.body .explore {
+  padding-bottom: 50px;
+  color: rgba(0, 0, 0, 0);
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .explore a:hover {
+  color: rgb(0, 0, 0);
+}
+.body .explore .routes {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 0px;
+  width: 280px;
+  height: 280px;
+  background-image: url(../img/routes.jpg);
+}
+.body .explore .routes .routetop {
+  letter-spacing: 3px;
+  font-family: "Rubik Mono One", sans-serif;
+  margin-top: 130px;
+  text-align: center;
+}
+.body .explore .routes .routebottom {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+.body .explore .routes:hover {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/routes.jpg);
+}
+.body .explore .gear {
+  margin-right: 0px;
+  width: 280px;
+  height: 280px;
+  background-image: url(../img/gear.jpg);
+}
+.body .explore .gear .geartop {
+  letter-spacing: 3px;
+  font-family: "Rubik Mono One", sans-serif;
+  margin-top: 130px;
+  text-align: center;
+}
+.body .explore .gear .gearbottom {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+.body .explore .gear:hover {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gear.jpg);
+}
+.body .explore .bikes {
+  text-transform: uppercase;
+  margin-right: 0px;
+  width: 280px;
+  height: 280px;
+  background-image: url(../img/bikes.jpg);
+}
+.body .explore .bikes .biketexttop {
+  letter-spacing: 3px;
+  font-family: "Rubik Mono One", sans-serif;
+  margin-top: 130px;
+  text-align: center;
+}
+.body .explore .bikes .biketextbottom {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+.body .explore .bikes .overlay-bikes {
+  position: absolute;
+  opacity: 0;
+  height: 46%;
+  width: 22%;
+  background-color: black;
+}
+.body .explore .bikes .overlay-bikes:hover {
+  transition: opacity 0.5s;
+  opacity: 1;
+}
+.body .explore .bikes:hover {
+  color: white;
+}
+.body .explore .lists {
+  margin-right: 0px;
+  width: 280px;
+  height: 280px;
+  background-image: url(../img/lists.jpg);
+}
+.body .explore .lists .listtop {
+  letter-spacing: 3px;
+  font-family: "Rubik Mono One", sans-serif;
+  margin-top: 130px;
+  text-align: center;
+}
+.body .explore .lists .listbottom {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+.body .explore .lists:hover {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/lists.jpg);
+}
+.body .sponsor {
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  background-color: #d0cfcd;
+  clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
+}
+.body .sponsor .comptext {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 295px;
+  height: 25px;
+  clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
+  text-align: center;
+  background-color: #F2F1EE;
+  color: #848581;
+  font-size: 13.5px;
+}
+
+.companies {
+  padding-top: 20px;
+  height: 230px;
+  background-color: #F2F1EE;
+}
+.companies .compline1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.companies .compline1 .blackburn {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greyblackburn.png);
+}
+.companies .compline1 .blackburn:hover {
+  background-image: url(../img/Sponsors/blackburn.png);
+}
+.companies .compline1 .ridegps {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greyridegps.png);
+}
+.companies .compline1 .ridegps:hover {
+  background-image: url(../img/Sponsors/ridegps.png);
+}
+.companies .compline1 .restrap {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greyrestrap.png);
+}
+.companies .compline1 .restrap:hover {
+  background-image: url(../img/Sponsors/restrap.png);
+}
+.companies .compline1 .oldman {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greyoldman.png);
+}
+.companies .compline1 .oldman:hover {
+  background-image: url(../img/Sponsors/oldman.png);
+}
+.companies .compline1 .pedaled {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greypedaled.png);
+}
+.companies .compline1 .pedaled:hover {
+  background-image: url(../img/Sponsors/pedaled.png);
+}
+.companies .compline2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.companies .compline2 .tailfin {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greytailfin.png);
+}
+.companies .compline2 .tailfin:hover {
+  background-image: url(../img/Sponsors/tailfin.png);
+}
+.companies .compline2 .wolftooth {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greywolftooth.png);
+}
+.companies .compline2 .wolftooth:hover {
+  background-image: url(../img/Sponsors/wolftooth.png);
+}
+.companies .compline2 .voile {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greyvoile.png);
+}
+.companies .compline2 .voile:hover {
+  background-image: url(../img/Sponsors/voile.png);
+}
+.companies .compline2 .salsa {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greysalsa.png);
+}
+.companies .compline2 .salsa:hover {
+  background-image: url(../img/Sponsors/salsa.png);
+}
+.companies .compline2 .ortlieb {
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/Sponsors/greyortlieb.png);
+}
+.companies .compline2 .ortlieb:hover {
+  background-image: url(../img/Sponsors/ortlieb.png);
+}
+.companies .showmorebutton {
+  text-align: center;
+}
+.companies .showmorebutton a {
+  font-family: "Rubik", sans-serif;
+  color: #A23D3B;
+}
+
+.footer {
+  background-color: #8A9675;
+}
+.footer .pedalfurther {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .pedalfurther img {
+  width: 275px;
+}
+.footer .mission2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  background-color: #8A9675;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.footer .socials {
+  color: #A23D3B;
+  font-size: 25px;
+  letter-spacing: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.footer .fa-instagram:hover {
+  color: black;
+}
+.footer .fa-square-facebook:hover {
+  color: black;
+}
+.footer .fa-youtube:hover {
+  color: black;
+}
+.footer .fa-twitter:hover {
+  color: black;
+}
+.footer .fa-rss:hover {
+  color: black;
+}
+.footer .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer .links .linkscol {
+  text-align: center;
+  width: 20%;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+.footer .links .linkscol li {
+  padding: 7px;
+}
+.footer .links .linkscol ul {
+  list-style-type: none;
+}
+.footer .links .linkscol a {
+  text-decoration: none;
+  color: #A23D3B;
+}
+.footer .copyright {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

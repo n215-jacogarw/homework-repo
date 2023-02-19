@@ -111,7 +111,7 @@ For this homework assignment, you will be making the home page from the Travel-f
 - Upload your project to Github and Web4 and add your Web4 link to the README file.
 - Then submit your Github link to this assignment.
 
-## Homework 3 URL
+## Homework 4 URL
 
 https://in-info-web4.informatics.iupui.edu/~jacogarw/Homework-four/
 

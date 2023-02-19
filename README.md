@@ -85,7 +85,7 @@ For this homework assignment you will be re-creating the home page from the Trav
 
 ## Homework 3 URL
 
-https://in-info-web4.informatics.iupui.edu/~jacogarw/Homework-three/
+https://in-info-web4.informatics.iupui.edu/~jacogarw/homework-three/
 
 #
 
@@ -113,6 +113,6 @@ For this homework assignment, you will be making the home page from the Travel-f
 
 ## Homework 4 URL
 
-https://in-info-web4.informatics.iupui.edu/~jacogarw/Homework-four/
+https://in-info-web4.informatics.iupui.edu/~jacogarw/homework-four/
 
 #

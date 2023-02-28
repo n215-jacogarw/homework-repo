@@ -1,0 +1,54 @@
+@mixin nav-hold($color:$site-white, $logo:$logo-white) {
+            max-width: $site-nav-width;
+            height: $site-nav-height;
+            background-color: rgba(0, 0, 0, 0);
+            border-bottom: solid $color 2px;
+            display: flex;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding-top: 25px;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+    
+            .logo {
+                position: static;
+                margin-top: auto;
+                display: flex;
+                align-items: center;
+                max-width: 100%;
+                width: 100px;
+                height: 100px;
+                background-image: $logo;
+                background-size: contain;
+                background-repeat: no-repeat;
+    
+            }
+                          .linkholder {
+                              max-width: 600px;
+                              justify-content: right;
+            
+            
+                              a {
+                                  text-decoration: none;
+                                  color: $color;
+                                  border-right: solid $site-blue 1px;
+                                  padding-right: 15px;
+                                  padding-left: 15px;
+                                  font-family: 'Gill Sans', serif;
+                                  letter-spacing: 3px;
+                                  font-size: 13px;
+                              }
+}
+
+@media (max-width:975px) {
+    .nav-holder {
+        .logo {
+            margin-left: 20px;
+        }
+    }
+}
+}
+
+

@@ -1,0 +1,24 @@
+{
+  "name": "homework-repo",
+  "version": "1.0.0",
+  "description": "This repository is for containing homework files for later use in n-215 class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n215-jacogarw/homework-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n215-jacogarw/homework-repo/issues"
+  },
+  "homepage": "https://github.com/n215-jacogarw/homework-repo#readme",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}

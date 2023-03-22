@@ -208,4 +208,4 @@ For this homework assignment, you will be making the special offer, blog, and th
 
 ## Homework 7 URL
 
-https://in-info-web4.informatics.iupui.edu/~jacogarw/homework-six/
+https://in-info-web4.informatics.iupui.edu/~jacogarw/homework-seven/

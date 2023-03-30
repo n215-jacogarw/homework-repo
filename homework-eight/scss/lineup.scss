@@ -1,0 +1,29 @@
+.lineup {
+    width:100%;
+    height:2500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+
+
+    img {
+        max-width: 700px;
+            max-height: 200px;
+    }
+    #lineupbody {
+        #lineup {
+            font-family: 'Metal Mania', cursive;
+            color:#e138e1;
+            font-weight:900;
+            font-size:100px;;
+            text-align: center;
+        }
+    }
+
+
+
+
+
+}

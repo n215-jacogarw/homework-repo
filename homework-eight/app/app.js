@@ -75,17 +75,17 @@ var productsContent = ` <div class="products">
       </div>
 
   </div>`
-    var contactContent = `<div class="contact">
-    <h1>Contact Us</h1>
+    var contactContent = `  <div class="contact">
+    <h1>We Want your Feedback!</h1>
+    <div class="contact-us"></div>
     <h2>You can contact us by:
-        <li>Calling Us</li>
-        <li>Emailing Us</li>
-        <li>Screaming at our receptionist Kevin (don't do that)</li>
-        and new!
-        <li>You can use our text hotline to tell us what we did wrong from anywhere!</li>
-        <div class="kevinpic" alt="Our wonderful receptionist Kevin"></div>
+      <li>Calling Us at our hotline at 555-0100</li>
+      <li>Emailing Us at contactus@rockfest.com</li>
+      <li>Visiting us during our office Hours at: 122 Wallaby Road, North Carolina.</li>
+      <img src="/img/RockfestHQ.PNG">
     </h2>
-    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, libero, natus exercitationem quasi architecto velit laudantium autem tenetur voluptates pariatur ut vero blanditiis, nostrum culpa optio! Inventore itaque molestiae animi?</p>
+  </div>
     
     `
 function initListeners() {

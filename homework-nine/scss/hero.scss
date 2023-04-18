@@ -1,0 +1,22 @@
+.hero {
+   
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom:10px;
+    color:#ab00ab;
+    font-family:'Metal Mania', cursive;
+    text-align: center;
+    font-size: 70px;
+ 
+    
+    h2 {
+   position: relative;
+   top:35%;
+    }
+}

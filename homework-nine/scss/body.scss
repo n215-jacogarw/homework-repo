@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    height:950px;
+}
+.body {
+    font-family: 'Metal Mania', cursive;
+    
+    #box1 {
+        display: -webkit-box;
+        -webkit-box-direction: normal;
+        -webkit-box-orient: horizontal;
+        p {
+            
+            padding-left: 50px;
+            padding-right:50px;
+            flex-basis:60%;
+            text-align: left;
+                color: #ab00ab;
+            
+    
+        
+        }
+                 #Band1 {
+                    
+                     max-width: 450px;
+                     height: 300px;
+                     background-image: url("../img/Band1.png");
+                     background-repeat: no-repeat;
+                    padding-left: 30px;
+                    padding-right:35%
+                 }
+        
+            
+        padding-bottom: 0px;
+    }
+    #filler1 {
+
+        p{
+            font-weight: bold;
+            font-size:xx-large;
+            display:flex;
+            width:100%;
+            height:100px;
+            align-items: center;
+            justify-content: center;
+        color:#ab00ab;
+        }
+    }
+    #box2 {
+        display: -webkit-box;
+            -webkit-box-direction:reverse;
+            -webkit-box-orient: horizontal;
+            #band2 {
+                padding-left:10%;
+                flex-basis: 70%;
+                    width: 434px;
+                    height: 300px;
+                    
+                }
+        p{
+            padding-left:50px;
+            padding-right:10px;
+            text-align: right;
+            flex-basis: 50%;
+            color:#ab00ab;
+        }
+        
+    }
+    background-color: black;
+    width:100%;
+    height:100%;
+}

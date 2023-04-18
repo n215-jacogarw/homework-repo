@@ -1,0 +1,34 @@
+.footer {
+    font-family: 'Metal Mania';
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+
+        text-decoration: none;
+        color: white;
+        transition-duration: 0.5s;
+
+        &:hover {
+            color: #ab00ab;
+            transition-duration: 0.5s;
+        }
+
+    }
+
+   .homelogo {
+       background-image: url(../img/Logo.png);
+       width: 125px;
+       height: 100px;
+       background-repeat: no-repeat;
+
+   }
+
+   .homelogo:hover {
+       background-image: url(../img/LogoHover.png);
+       animation-duration: 0.5s;
+   }
+}
